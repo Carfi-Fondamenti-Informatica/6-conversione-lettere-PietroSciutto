@@ -1,6 +1,7 @@
 #include <iostream>
-#include "lib.h"
 using namespace std;
+#include "lib.h"
+
 
 int main(){
   char a=a;
