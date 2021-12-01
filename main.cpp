@@ -4,9 +4,9 @@ int main(){
   char a=a;
     cin>>a;
     if(conversione (a)==false){
-        cout<<"errore"<<endl;
+        cout<<"errore";
     }else{
-        cout<<a<<endl;
+        cout<<a;
     }
   return 0;
 }
