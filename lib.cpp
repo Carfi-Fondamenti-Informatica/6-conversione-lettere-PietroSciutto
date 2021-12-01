@@ -1,7 +1,16 @@
-#ifndef ESERCITAZIONE_6_LIB_H
-#define ESERCITAZIONE_6_LIB_H
+#include "lib.h"
 
-bool conversione (char&);
+bool conversione (char &a){
+    bool t=true;
+    if(a>=65 and a<=90 or a>=97 and a<=122){
+        t=true;
+        if(a>=65 and a<=90){
+            a=a+32;
+            return &a;
+        }
+    }else{
+        t=false;
+    }
+    return t;
+}
 
-
-#endif //ESERCITAZIONE_6_LIB_H
